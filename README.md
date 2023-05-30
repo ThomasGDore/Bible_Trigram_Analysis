@@ -3,7 +3,7 @@
 This is a trigram analysis of the Douay-Rheims Bible. In this analysis we utilized Python, [NLTK](https://www.nltk.org/book/ch00.html), and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) in Jupyter Labs to scrape [The Douay-Rheims from Gutenberg](https://www.gutenberg.org/files/8300/8300-h/8300-h.htm) and count the trigrams present in the verses. This analysis was sparked by one question, primarily, but has other potential utilizations. There was a simple curiosity on the researchers' end to know how often the phrase 'be not afraid'occurs in the Bible. We were able to satiate this curiosity with a simple ctrl-f search of the html:
 
 <p align="center">
-  <img src="be_not_afraid_17.PNG", width="300%">
+  <img src="be_not_afraid_17.PNG", width="150%">
   <div class="caption" align="center">Problem solved!</div>
 </p>
 
@@ -35,7 +35,7 @@ We then generated a list of trigrams, which are instances of three words in a ro
 
 
   <p align="center">
-  <img src="top_50_wsw.PNG", width="300%">
+  <img src="top_50_wsw.PNG", width="400%">
   <div class="caption" align="center">The 50 most commmon trigrams in the Douay-Rheims</div>
 </p>
 
