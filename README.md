@@ -66,13 +66,11 @@ for i in my_trigrams:
     
 print(trigram_list[:5])
 # [('in', 'the', 'beginning'), ('the', 'beginning', 'god'), ('beginning', 'god', 'created'), ('god', 'created', 'heaven'), ('created', 'heaven', 'and')]
-```
-<br></br>
-```
+
 a = dict(Counter(trigram_list))
 b = {v:k for k,v in a.items()}
 items_sorted = sorted(b.items(), reverse=True)
-```
+
 <br></br>
   <p align="center">
   <img src="top_50_wsw_partial.PNG", width="300%">
