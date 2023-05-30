@@ -41,16 +41,16 @@
 
 ## Conclusion
 
-   Returning to our goal concerning messaging for businesses and marketing teams, we see a focus on duties and responsibilities, e.g., ('and', 'i', 'will'), ('and', 'thou', 'shalt'). More dominantly, however, we see a thematic focus upon family relations, e.g., ('the', 'son', 'of'), ('the', 'children', 'of'), ('children', 'of', 'Israel'). We would therefore recommend businesses that want to stick around for the long term to center their messaging and business models on serving the families of their customers, and of helping their customers to perform their duties and responsibilities toward the their families and communities with dignity and perhaps a sense of resolution.
+   Returning to our goal concerning messaging for businesses and marketing teams, we see a focus on duties and responsibilities, e.g., ('and', 'i', 'will'), ('and', 'thou', 'shalt'). More dominantly, however, we see a thematic focus upon family relations, e.g., ('the', 'son', 'of'), ('the', 'children', 'of'), ('children', 'of', 'Israel'). We would therefore recommend that if businesses want to stick around for the long term, they should center their messaging and business models on serving the families of their customers. They should also center their business models on helping their customers to perform their duties and responsibilities toward their families and communities with dignity and perhaps a sense of resoluteness.
 
-   I was also able to confirm that my ctrl-f search before was correct
+   The researchers were also able to confirm that our ctrl-f search before was correct.
 
 ```
 a['be','not','afraid'] 
 ##17
 ```
 
-   We performed the same analysis with the stop words removed but found the trigrams it produced less compelling. If the reader would like to see this analysis I'd point them towards the [.pdf](https://github.com/ThomasGDore/Bible_Trigram_Analysis/blob/main/p_model_DR.pdf) for the full list of trigrams with stop words removed.
+   We performed the same analysis with the stop words removed but found the trigrams it produced less compelling. If the reader would like to see this analysis we'd point them towards the [.pdf](https://github.com/ThomasGDore/Bible_Trigram_Analysis/blob/main/p_model_DR.pdf) for the full list of trigrams with stop words removed.
 
 
 ## Potential future directions 
