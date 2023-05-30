@@ -70,6 +70,8 @@ print(trigram_list[:5])
 a = dict(Counter(trigram_list))
 b = {v:k for k,v in a.items()}
 items_sorted = sorted(b.items(), reverse=True)
+
+print(items_sorted[0:50])
 ```
 
 <br></br>
