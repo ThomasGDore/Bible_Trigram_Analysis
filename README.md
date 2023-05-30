@@ -20,8 +20,8 @@ All the core building blocks of this work took place within the python framework
 To accomplish this, we made a list of every number from 0 to 100 and converted each object 'type' from 'int' to 'str', or from integer to string. Then we created a new list, using a list comprehension, which takes objects from the list described above if and only if they began with a number. Therefore we are only selecting verses, and avoiding the footnotes etc..
   
 `
-  for verse in p_list[228:-57]:
-    if verse[0] in num_list:
+  for verse in p_list[228:-57]: \n
+    if verse[0] in num_list: \n
         dr_p_cln.append(verse)
 `
 
@@ -46,7 +46,7 @@ Returning to our goal concerning messaging for businesses and marketing teams, w
 I was also able to confirm that my ctrl-f search before was correct
 
 `
-a\['be','not','afraid']
+a['be','not','afraid'] \n
 ##17
 `
 
