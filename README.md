@@ -3,7 +3,7 @@
 This is a trigram analysis of the Douay-Rheims Bible. In this analysis we utilized Python, [NLTK](https://www.nltk.org/book/ch00.html), and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) in Jupyter Labs to scrape [The Douay-Rheims from Gutenberg](https://www.gutenberg.org/files/8300/8300-h/8300-h.htm) and count the trigrams present in the verses. This analysis was sparked by one question, primarily, but has other potential utilizations. There was a simple curiosity on the researchers' end to know how often the phrase 'be not afraid'occurs in the Bible. We were able to satiate this curiosity with a simple ctrl-f search of the html:
 
 <p align="center">
-  <img src="be_not_afraid_17.png", width="300%">
+  <img src="be_not_afraid_17.PNG", width="300%">
   <div class="caption" align="center">Problem solved!</div>
 </p>
 
@@ -19,11 +19,11 @@ All the core building blocks of this work took place within the python framework
 
 To accomplish this, we made a list of every number from 0 to 100 and converted each object 'type' from 'int' to 'str', or from integer to string. Then we created a new list, using a list comprehension, which takes objects from the list described above if and only if they began with a number. Therefore we are only selecting verses, and avoiding the footnotes etc..
   
-`
-  for verse in p_list[228:-57]: \n
-    if verse[0] in num_list: \n
+```
+  for verse in p_list[228:-57]: 
+    if verse[0] in num_list: 
         dr_p_cln.append(verse)
-`
+```
 
 After this, the hard-part of the evaluation is mostly done. We do some more 'cleaning' of the verses by removing punctuation, and new-line markers (\n) that carried over from the html. We also remove all of the chapter and verse demarcations we earlier utilized. 
 
@@ -35,7 +35,7 @@ We then generated a list of trigrams, which are instances of three words in a ro
 
 
   <p align="center">
-  <img src="top_50_wsw.png", width="300%">
+  <img src="top_50_wsw.PNG", width="300%">
   <div class="caption" align="center">The 50 most commmon trigrams in the Douay-Rheims</div>
 </p>
 
@@ -45,10 +45,10 @@ Returning to our goal concerning messaging for businesses and marketing teams, w
 
 I was also able to confirm that my ctrl-f search before was correct
 
-`
-a['be','not','afraid'] \n
+```
+a['be','not','afraid'] 
 ##17
-`
+```
 
 We performed the same analysis with the stop words removed but found the trigrams it produced less compelling. If the reader would like to see this analysis I'd point them towards the [.pdf](https://github.com/ThomasGDore/Bible_Trigram_Analysis/blob/main/p_model_DR.pdf) for the full list of trigrams with stop words removed.
 
