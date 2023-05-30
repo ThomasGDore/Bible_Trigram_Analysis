@@ -1,13 +1,13 @@
 # Trigram analysis of the Douay-Rheims Bible
 ## Introduction
-This is a trigram analysis of the Douay-Rheims Bible. In this analysis we utilized Python, [NLTK](https://www.nltk.org/book/ch00.html), and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) in Jupyter Labs to scrape [The Douay-Rheims from Gutenberg](https://www.gutenberg.org/files/8300/8300-h/8300-h.htm) and count the trigrams present in the verses. This analysis was sparked by one question, primarily, but has other potential utilizations. There was a simple curiosity on the researchers' end to know how often the phrase 'be not afraid'occurs in the Bible. We were able to satiate this curiosity with a simple ctrl-f search of the html:
+This is a trigram analysis of the Douay-Rheims Bible. In this analysis we utilized Python, [NLTK](https://www.nltk.org/book/ch00.html), and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) in Jupyter Labs to scrape [The Douay-Rheims from Gutenberg](https://www.gutenberg.org/files/8300/8300-h/8300-h.htm) and count the trigrams present in the verses. This analysis was sparked by one question, primarily, but has other potential utilizations. There was a simple curiosity on the researchers' end to know how often the phrase 'be not afraid'occurs in the Bible. We were able to satiate this curiosity with a simple ctrl-f search of the html. We were inspired by this question, however, to further probe the work.
 
 <p align="center">
   <img src="be_not_afraid_17.PNG", width="150%">
   <div class="caption" align="center">Problem solved! (kidding) </div>
 </p>
 
-We were inspired by this question to further probe the work. What other trigrams might we find? What might they inform us about the contents of the work? And beyond this--we're still living in a predominantly Christian world, and the Bible is still the best-selling book of all time, so there is a strong use-case for businesses to model their messaging and core tenets around common themes in the Bible.
+What other trigrams might we find? What might they inform us about the contents of the work? And beyond this--we're still living in a predominantly Christian world, and the Bible is still the best-selling book of all time, so there is a strong use-case for businesses to model their messaging and core tenets around common themes in the Bible.
 
 One major problem the researchers had was cleaning the data such that one only has content from the actual verses themselves. It's easy to segment the work such that one gets the entire contents of the Bible, i.e., the verses *and* the book titles *and* the notes about the books' contents *and* the footnotes. It is not as straightforward to capture *only* the verses. This was a unique and interesting problem that after a few iterations the researchers can proudly say they resolved! Though there is still room for improvement.
 
