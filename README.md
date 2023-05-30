@@ -4,7 +4,7 @@ This is a trigram analysis of the Douay-Rheims Bible. In this analysis we utiliz
 
 <p align="center">
   <img src="be_not_afraid_17.PNG", width="150%">
-  <div class="caption" align="center">Problem solved!</div>
+  <div class="caption" align="center">Problem solved! (kidding) </div>
 </p>
 
 We were inspired by this question to further probe the work. What other trigrams might we find? What might they inform us about the contents of the work? And beyond this--we're still living in a predominantly Christian world, and the Bible is still the best-selling book of all time, so there is a strong use-case for businesses to model their messaging and core tenets around common themes in the Bible.
