@@ -70,9 +70,11 @@ print(trigram_list[:5])
 a = dict(Counter(trigram_list))
 b = {v:k for k,v in a.items()}
 items_sorted = sorted(b.items(), reverse=True)
+```
 
 <br></br>
-  <p align="center">
+
+<p align="center">
   <img src="top_50_wsw_partial.PNG", width="300%">
   <div class="caption" align="center">Part of the 50 most commmon trigrams in the Douay-Rheims</div>
 </p>
