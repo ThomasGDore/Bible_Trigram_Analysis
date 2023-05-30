@@ -90,12 +90,12 @@ a['be','not','afraid']
 # 17
 ```
 
-   We performed the same analysis with the stop words removed but found the trigrams it produced less compelling. If the reader would like to see this analysis we'd point them towards the [.pdf](https://github.com/ThomasGDore/Bible_Trigram_Analysis/blob/main/p_model_DR.pdf) for the full list of trigrams with stop words removed.
+   We performed the same trigrammic analysis with the stop words removed but found the trigrams it produced less compelling. If the reader would like to see this analysis we'd point them towards the [.pdf](https://github.com/ThomasGDore/Bible_Trigram_Analysis/blob/main/p_model_DR.pdf) for the full list of trigrams with stop words removed.
 
 
 ## Potential future directions 
 
-   We noticed that there is direct potential for a small fix. As we are only looking here at the most common trigrams across a relatively large dataset we were not perturbed by the appearance of 7 bracketed ('\[ ]')comments in the text. Each occurrence was located in the Psalms, and inside the brackets was only a reference to another verse in the Bible, e.g., ('\[1 Kings 24]). As a) the content would largely have been removed when the brackets and numbers were deleted and b) they only occurred at the end of sentences (thus not really interfering with a trigramic interpretation) it is virtually irrelevant to our conclusion and our final counts. However the researchers would like to return to the project to remove the bracketed items entirely for the sake of completion. We hypothesize that RegEx would be the tool for the job.
+   We noticed that there is direct potential for a small fix. As we are only looking here at the most common trigrams across a relatively large dataset we were not perturbed by the appearance of 7 bracketed ('\[ ]')comments in the text. Each occurrence was located in the Psalms, and inside the brackets was only a reference to another verse in the Bible, e.g., `[1 Kings 24]`. As a) the content would largely have been removed when the brackets and numbers were deleted and b) they only occurred at the end of sentences (thus not really interfering with a trigrammic interpretation) it is virtually irrelevant to our conclusion and our final counts. However the researchers would like to return to the project to remove the bracketed items entirely for the sake of completion. We hypothesize that RegEx would be the tool for the job.
 
 
    The researchers would also like to pursue a sentiment analysis on the Bible. Namely we are curious about the differences in emotional sentiments between the two 'halves' of the Bible: The Old Testament, and The New Testament. 
