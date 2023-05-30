@@ -31,12 +31,12 @@ The list we are working with now is composed exclusively of verses that have bee
 
 We performed a Frequency Distribution on the list, treating it as a '[bag of words](https://en.wikipedia.org/wiki/Bag-of-words_model)' and found that removing the stop words lead to a more useful output in this case. As the most common words without removing stop words are ('the', 'and', 'of') and after removing stop words they are ('shall', 'Lord', 'thou'). A future analysis might make nltk's list of stopwords larger by adding older english pronomials like 'thou' and 'thy'.
 
-We then generated a list of trigrams, which are instances of three words in a row (e.g., ('in', 'the', 'beginning')), using nltk.trigrams, and counted how many times each unique trigram shows up in our list. We put the outputs into a dictionary that associated a trigram as the key, and the count of how many times it occurred as the value to said key (e.g., (('of', 'God', 'and'), 272)). We then organized said dictionary in a descending fashion of greatest counts to least, and had the following output as the top 50 most common trigrams in the Douay-Rheims Bible:
+We then generated a list of trigrams, which are instances of three words in a row (e.g., ('in', 'the', 'beginning')), using nltk.trigrams, and counted how many times each unique trigram shows up in our list. We put the outputs into a dictionary that associated a trigram as the key, and the count of how many times it occurred as the value to said key (e.g., (('of', 'God', 'and'), 272)). We then organized said dictionary in a descending fashion of greatest counts to least, and found the [top 50 most common trigrams in the Douay-Rheims Bible](https://github.com/ThomasGDore/Bible_Trigram_Analysis/blob/main/top_50_wsw.PNG).
 
 
   <p align="center">
-  <img src="top_50_wsw.PNG", width="400%">
-  <div class="caption" align="center">The 50 most commmon trigrams in the Douay-Rheims</div>
+  <img src="top_50_wsw_partial.PNG", width="300%">
+  <div class="caption" align="center">Part of the 50 most commmon trigrams in the Douay-Rheims</div>
 </p>
 
 ## Conclusion
